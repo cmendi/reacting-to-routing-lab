@@ -14,7 +14,7 @@ const Navbar = () => {
 						<NavLink to="/films" className={"m-3 btn btn-primary"}>
 							New Films
 						</NavLink>
-						<NavLink to="/people" className={"m-3 btn btn-primary"}>
+						<NavLink to="/people" className={"me-0 m-3 btn btn-primary"}>
 							New People
 						</NavLink>
 					</div>

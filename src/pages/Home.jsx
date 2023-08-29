@@ -12,7 +12,7 @@ const Home = () => {
 							Router to build this project. Use the navbar to click around to see all films or all people and click the Read More links to see the full details of that resource. Enjoy!
 						</p>
 						<h6 className=" text-center card-subtitle m-2 text-secondary">
-							If you like what you see, contact me up here:{" "}
+							If you like what you see, contact me here:{" "}
 							<a href="https://mendenhallmedias.com/" target="_blank" className="text-primary">
 								My Website
 							</a>

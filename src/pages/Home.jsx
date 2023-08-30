@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
 	return (
 		<>
-			<div className="container col-md-8 mt-5">
+			<div className="container col-xxl-6 col-7  mt-5">
 				<div className="card shadow mb-5">
 					<div className="card-body">
 						<h3 className="card-title text-center">Studio Ghibli API Lab</h3>

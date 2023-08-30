@@ -39,8 +39,8 @@ const FilmDetails = () => {
 							</ul>
 							<p className="card-text px-3 py-2">{filmDetails.description}</p>
 							<div className="d-flex justify-content-end mx-4 mb-3">
-								<Link to={"/"} className="btn btn-primary">
-									Go Home
+								<Link to={"/films"} className="btn btn-outline-secondary">
+									Back to Films
 								</Link>
 							</div>
 						</div>

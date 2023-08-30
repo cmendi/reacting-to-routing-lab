@@ -5,6 +5,7 @@ import React from "react";
 import Home from "./pages/Home";
 import Films from "./pages/Films";
 import People from "./pages/People";
+import FilmDetails from "./components/FilmDetails";
 
 const App = () => {
 	return (
@@ -14,6 +15,7 @@ const App = () => {
 				<Route path="/" element={<Home />} />
 				<Route path="/films" element={<Films />} />
 				<Route path="/people" element={<People />} />
+				<Route path="/filmsdetails" element={<FilmDetails />} />
 			</Routes>
 		</BrowserRouter>
 	);

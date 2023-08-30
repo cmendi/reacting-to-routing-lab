@@ -8,13 +8,13 @@ const Navbar = () => {
 				<div className="container">
 					<img src="https://ghibliapi.vercel.app/images/logo.svg" className="w-25" alt="Studio Ghibli" />
 					<div className="d-flex">
-						<NavLink to="/" className={"m-3 btn btn-primary"}>
+						<NavLink to="/" className={"m-3 btn btn-outline-primary"}>
 							Go Home
 						</NavLink>
-						<NavLink to="/films" className={"m-3 btn btn-primary"}>
+						<NavLink to="/films" className={"m-3 btn btn-outline-primary"}>
 							New Films
 						</NavLink>
-						<NavLink to="/people" className={"me-0 m-3 btn btn-primary"}>
+						<NavLink to="/people" className={"me-0 m-3 btn btn-outline-primary"}>
 							New People
 						</NavLink>
 					</div>

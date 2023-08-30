@@ -31,7 +31,10 @@ const FilmDetails = () => {
 								</li>
 								<li className="list-group-item text-body-tertiary">
 									Rotten Tomato Score{" "}
-									<span className={`${filmDetails.rt_score > 80 ? "text-success" : filmDetails.rt_score >= 61 ? "text-warning" : "text-danger"} fs-5`}> {filmDetails.rt_score}</span>
+									<span className={`${filmDetails.rt_score > 80 ? "fw-bold text-success" : filmDetails.rt_score >= 61 ? "fw-bold text-warning" : "fw-bold text-danger"} fs-5`}>
+										{" "}
+										{filmDetails.rt_score}
+									</span>
 								</li>
 							</ul>
 							<p className="card-text px-3 py-2">{filmDetails.description}</p>
